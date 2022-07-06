@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.18.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Kumarayana Responsive</title>
+</head>
+<body>
+
+    <div class="navbar bg-base-100 fixed z-10">
+        <div class="container flex items-center md:px-28 px-10 py-2">
+        <div class="ms-auto">
+            <a href="#" class="text-white font-extrabold text-2xl md:text-2xl">KUMARA<span class="text-purple-700">YANA</span></a>
+            </a>
+        </div>
+        <div class="flex items-center justify-center mx-auto md:block hidden">
+            <ul class="flex text-white text-sm">
+                <li><a href="#home" class="m-4 hover:bg-purple-700 duration-300 hover:px-4 hover:py-3">ホームミー</a></li>
+                <li><a href="#porfolio" class="m-4 hover:bg-purple-700 duration-300 hover:px-4 hover:py-3">ポートフォリオ</a></li>
+                <li><a href="#services" class="m-4 hover:bg-purple-700 duration-300 hover:px-4 hover:py-3">私のサービス</a></li>
+                <li><a href="#gallery" class="m-4 hover:bg-purple-700 duration-300 hover:px-4 hover:py-3">私のギャラリ</a></li>
+                <li><a href="#contact" class="m-4 hover:bg-purple-700 duration-300 hover:px-4 hover:py-3">コンタクト</a></li>
+            </ul>
+        </div>
+        <div class="icons flex items-center justify-center md:block hidden md:me-80">
+            <a href="#" class="inline-flex w-8 h-8 bg-purple-700 rounded-full shadow text-white m-2">
+                <i class="bx bxl-github mx-auto my-auto text-xl"></i>
+            </a>
+            <a href="#" class="inline-flex w-8 h-8 bg-red-700 rounded-full shadow text-white m-2">
+                <i class="bx bxl-facebook mx-auto my-auto text-xl"></i>
+            </a>
+            <a href="#" class="inline-flex w-8 h-8 bg-warning rounded-full shadow text-white m-2">
+                <i class="bx bxl-twitter mx-auto my-auto text-xl"></i>
+            </a>
+        </div>
+        <div class="items-center">
+        <div class="dropdown dropdown-end block md:hidden mx-[120px]">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+                <i class="bx bx-grid-horizontal text-2xl text-white"></i>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-104">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#porfolio">PORFOLIO</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+         </div>
+         </div>
+        </div>
+    </div>
+    <section class="bg-base-100 body-font overflow-hidden" id="home">
+        <div class="container md:px-20 md:py-60 py-40 mx-auto flex px-10">
+            <div class="lg:w-4/5 flex flex-wrap mx-auto">
+                <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 text-center md:text-start">
+                    <h2 class="text-white md:text-2xl text-xl font-bold mb-4">こんにちは.✌️</h2>
+                    <h1 class="text-white md:text-3xl text-2xl font-extrabold inline-flex mb-4">私はウェブサイト開発者です</h1>
+                    <p class="text-gray-500 text-sm mb-4">私はインドネシアのウェブサイト開発者であり、高校生であり、私のキャリアはフロントエンドです。</p>
+                    <div class="icons flex inline-flex items-center justify-center">
+                        <a href="#" class="inline-flex w-8 h-8 bg-purple-700 rounded-full shadow text-white m-2">
+                            <i class="bx bxl-github mx-auto my-auto text-xl"></i>
+                        </a>
+                        <a href="#" class="inline-flex w-8 h-8 bg-red-700 rounded-full shadow text-white m-2">
+                            <i class="bx bxl-facebook mx-auto my-auto text-xl"></i>
+                        </a> 
+                        <a href="#" class="inline-flex w-8 h-8 bg-warning rounded-full shadow text-white m-2">
+                            <i class="bx bxl-twitter mx-auto my-auto text-xl"></i>
+                        </a>
+                        <a href="#" class="inline-flex w-8 h-8 bg-secondary rounded-full shadow text-white m-2">
+                            <i class="bx bxl-pinterest mx-auto my-auto text-xl"></i>
+                        </a>
+                        <a href="#" class="inline-flex w-8 h-8 bg-indigo-700 rounded-full shadow text-white m-2">
+                            <i class="bx bxl-tiktok mx-auto my-auto text-xl"></i>
+                        </a>
+                    </div>
+                </div>        
+                <img class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="./img/japanesea.webp" alt="" >
+            </div>
+        </div>
+    </section>
+    <section class="bg-base-100 body-font" id="porfolio">
+        <div class="container md:px-20 py-24 mx-auto flex flex-wrap px-10">
+            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                <div class="w-full sm:p-4 px-4 mb-6">
+                    <h1 class="text-purple-700 font-bold md:text-2xl text-xl mb-2">日本は私の好みです</h1>
+                    <p class="text-white text-md md:text-lg">踊りがとてもよく、観光や教育も充実していて大変な日本の風景が好きです, 踊りがとてもよく、観光や教育も充実していて大変な日本の風景が好きです。</p>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h1 class="text-purple-700 text-lg font-bold">34.k</h1>
+                    <p class="text-gray-400 text-md">私の訪問</p>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h1 class="text-purple-700 text-lg font-bold">34.k</h1>
+                    <p class="text-gray-400 text-md">私の訪問</p>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h1 class="text-purple-700 text-lg font-bold">34.k</h1>
+                    <p class="text-gray-400 text-md">私の訪問</p>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h1 class="text-purple-700 text-lg font-bold">34.k</h1>
+                    <p class="text-gray-400 text-md">私の訪問</p>
+                </div>
+                <div class="icons flex inline-flex items-center justify-center">
+                    <a href="#" class="inline-flex w-8 h-8 bg-purple-700 rounded-full shadow text-white m-2">
+                        <i class="bx bxl-github mx-auto my-auto text-xl"></i>
+                    </a>
+                    <a href="#" class="inline-flex w-8 h-8 bg-red-700 rounded-full shadow text-white m-2">
+                        <i class="bx bxl-facebook mx-auto my-auto text-xl"></i>
+                    </a>
+                    <a href="#" class="inline-flex w-8 h-8 bg-warning rounded-full shadow text-white m-2">
+                        <i class="bx bxl-twitter mx-auto my-auto text-xl"></i>
+                    </a>
+                    <a href="#" class="inline-flex w-8 h-8 bg-secondary rounded-full shadow text-white m-2">
+                        <i class="bx bxl-pinterest mx-auto my-auto text-xl"></i>
+                    </a>
+                    <a href="#" class="inline-flex w-8 h-8 bg-indigo-700 rounded-full shadow text-white m-2">
+                        <i class="bx bxl-tiktok mx-auto my-auto text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 sm:w-1/2 w-full rounded-lg overflow-hidden mt-6 mb-0">
+                <img class="object-cover object-center w-full h-full" src="https://img.freepik.com/free-vector/japanese-restaurant-banner-template_23-2148943554.jpg?t=st=1657024181~exp=1657024781~hmac=1629827f10d17a310816c5e8e8646d1f1df6375ae93c1aa7a1a48da57b61e0fd&w=740" alt="">
+            </div>
+    </section>
+    <section class="bg-base-100 body-font" id="services">
+        <div class="container md:px-20 px-10 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/3">
+                    <div class="h-full bg-purple-700 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs font-bold text-white mb-1">SERVICES</h2>
+                        <h1 class="sm:text-2xl text-xl font-extrabold text-white mb-3">This is a services</h1>
+                        <p class="text-white mb-3">これはサービスセクションであり、主要なWebサイトの指示に従っています</p>
+                        <a class="text-white inline-flex items-center" href="#">
+                            <i class="bx bxl-facebook text-xl m-3"></i>
+                            <i class="bx bxl-tiktok text-xl m-3"></i>
+                            <i class="bx bxl-twitter text-xl m-3"></i>
+                            <div class="text-center mt-2 flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <a href="#" class="text-white font-bold">
+                                    今すぐアクセス
+                                    <i class='bx bx-chevron-right mx-auto text-white text-2xl'></i>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/3">
+                    <div class="h-full bg-red-700 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs font-bold text-white mb-1">SERVICES</h2>
+                        <h1 class="sm:text-2xl text-xl font-extrabold text-white mb-3">This is a services</h1>
+                        <p class="text-white mb-3">これはサービスセクションであり、主要なWebサイトの指示に従っています</p>
+                        <a class="text-white inline-flex items-center" href="#">
+                            <i class="bx bxl-facebook text-xl m-3"></i>
+                            <i class="bx bxl-tiktok text-xl m-3"></i>
+                            <i class="bx bxl-twitter text-xl m-3"></i>
+                            <div class="text-center mt-2 flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <a href="#" class="text-white font-bold">
+                                    今すぐアクセス
+                                    <i class='bx bx-chevron-right mx-auto text-white text-2xl'></i>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/3">
+                    <div class="h-full bg-warning px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                        <h2 class="tracking-widest text-xs font-bold text-white mb-1">SERVICES</h2>
+                        <h1 class="sm:text-2xl text-xl font-extrabold text-white mb-3">This is a services</h1>
+                        <p class="text-white mb-3">これはサービスセクションであり、主要なWebサイトの指示に従っています</p>
+                        <a class="text-white inline-flex items-center" href="#">
+                            <i class="bx bxl-facebook text-xl m-3"></i>
+                            <i class="bx bxl-tiktok text-xl m-3"></i>
+                            <i class="bx bxl-twitter text-xl m-3"></i>
+                            <div class="text-center mt-2 flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <a href="#" class="text-white font-bold">
+                                    今すぐアクセス
+                                    <i class='bx bx-chevron-right mx-auto text-white text-2xl'></i>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-base-100 body-font" id="gallery">
+        <div class="container md:px-20 px-10 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="md:text-2xl text-xl font-extrabold text-purple-700 mb-4">私のギャラリー</h1>
+                <p class="lg:w-2/3 text-white mb-4 mx-auto">これはサービスセクションであり、主要なWebサイトの指示に従っています</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/vintage-geometric-ramen-soup-background_52683-45970.jpg?t=st=1657078023~exp=1657078623~hmac=8150f5bf4da3f1ab7212c82d2f832539fcd0b979bad3b3b2e061ca4e259b070a&w=740" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/japan-wave-ocean-illustration-asia-oriental-traditional-hokusai-line-art-design_149225-72.jpg?w=740" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/minimalist-japanese-cover-set_52683-33861.jpg?t=st=1657078023~exp=1657078623~hmac=b2f83016047f868a658a003efd5e77de851bc1662a325c2ee433e8229c8978e4&w=740" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/flat-tanabata-background-with-ornaments-branches_23-2149449500.jpg?t=st=1657078362~exp=1657078962~hmac=cb3b115f63d322198dccb9dc00f47d23e3c3602d431be2fb24f0fb745cbf4661&w=740" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/minimalist-japanese-cover-collection_52683-32404.jpg?t=st=1657078362~exp=1657078962~hmac=b58005507ab9781e9cae0dfb3130461fc8620d0930708e7c358a86c3dfac1467&w=740" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                       <img class="gallery" src="https://img.freepik.com/free-vector/flat-childrens-day-background_23-2149359996.jpg?t=st=1657078362~exp=1657078962~hmac=6adb7a0d503a79e3ec6340e0dc971f49b3523b5bc95361b31ddd82eb92c707e6&w=740" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-base-100 body-font" id="contact">
+        <div class="container md:px-20 py-20 px-10 mx-auto">
+            <div class="flex flex-col text-center mb-12 w-full">
+                <h2 class="text-white md:text-2xl text-xl font-bold mb-4">私に連絡して</h2>
+                <p class="lg:w-2/3 mx-auto text-white mb-4">これはサービスセクションであり、主要な サイトの指示に従っています</p>
+            </div>
+            <div class="lg:w-1/2 sm:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-white font-bold">名前</label>
+                            <input type="text" id="name" class="w-full bg-gray-600 bg-opacity-50 rounded border border-gray-700 duration-200 px-1 py-3 outline-none">
+                        </div>
+                    </div>
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-white font-bold">Eメール</label>
+                            <input type="email" id="email" class="w-full bg-gray-600 bg-opacity-50 rounded border border-gray-700 duration-200 px-1 py-3 outline-none">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full mb-4">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-white font-bold">Eメール</label>
+                            <textarea name="message" id="message" class=" w-full bg-gray-600 bg-opacity-50 rounded h-32 px-1 py-3"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-2 w-full mb-4">
+                        <div class="relative">
+                            <button class="w-full bg-purple-700 text-white px-6 py-3 rounded">今すぐアクセス</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-base-100 body-font">
+        <div class="mx-auto text-center md:py-24 md:px-24 px-14 text-white md:text-xl text-md">
+            @クマーラーヤナと私のアカウントと私のフッター
+        </div>
+    </footer>
+</body>
+</html>
